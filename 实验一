@@ -60,7 +60,7 @@ void bubblesort(int* array, int size) {
     }
 }
 
-//分间函数(运行时间1.010秒)
+//分治函数(运行时间1.010秒)
 int partition(int* array,int low,int high)
 {
     int pivotkey = array[low];
