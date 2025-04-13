@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<stdio.h>
+
+int merge_sort(int* a[],int left,int right)
+{
+	if (left < right)
+	{
+		int middle = (left + right) / 2;
+		merge_sort(a, left, middle);
+		merge_sort(a, middle + 1, right);
+		merge(a, left, middle, right);
+	}
+	return -1;
+}
